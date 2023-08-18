@@ -1,0 +1,12 @@
+const mongoose =  require('mongoose')
+
+const userschema = mongoose.Schema(
+    {
+        "customername":String,
+        "email":String,
+        "mobilenumber":Number,
+        "address":String,
+        "password":String
+    }
+)
+ 
